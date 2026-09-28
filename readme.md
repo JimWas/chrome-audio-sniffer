@@ -32,6 +32,6 @@ The format selector applies to tab captures. Direct downloads retain the format 
 
 ## For developers
 
-See [documentation.md](documentation.md) for architecture, permissions, formats, testing, and troubleshooting. See [changelog.md](changelog.md) for version history.
+See [documentation.md](documentation.md) for architecture, permissions, formats, testing, and troubleshooting. See [changelog.md](changelog.md) for version history and [privacy.md](privacy.md) for data handling.
 
 The project has no build step. `manifest.json` is the extension entry point. The MP3 encoder is vendored in `vendor/`; see its license notice and source there. The rest of this repository does not yet declare a project license.
