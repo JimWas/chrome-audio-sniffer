@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Audio Finder</title><link rel="stylesheet" href="popup.css"></head>
+<body><main>
+  <header><div><h1>Audio Finder</h1><p>Find audio playing on this tab</p></div><button id="refresh" title="Refresh">↻</button></header>
+  <section class="record"><div><strong>Capture playing audio</strong><p>Start, replay the song, then stop.</p><label for="format">Save as</label><select id="format"><option value="mp3">MP3</option><option value="m4a">M4A</option><option value="webm">WebM</option></select></div><button id="record">Start capture</button></section>
+  <div class="heading"><h2>Detected requests <span id="count">0</span></h2><button id="clear">Clear</button></div>
+  <p id="status" role="status"></p><div id="items"></div>
+  <footer>Play the song, then refresh this list. Only save audio you have permission to keep.</footer>
+</main><script src="popup.js"></script></body></html>
