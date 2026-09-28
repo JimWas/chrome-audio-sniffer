@@ -2,6 +2,11 @@
 
 Changes to Chrome Audio Sniffer are listed here. Dates use the local development date.
 
+## 1.1.1 — 2026-09-29
+
+- Added a custom Chrome extension icon in 16, 32, 48, and 128 pixel sizes.
+- Connected the icon to the toolbar action and extension metadata.
+
 ## 1.1.0 — 2026-09-29
 
 - Added a capture format selector with MP3, M4A, and WebM output. MP3 is the default.

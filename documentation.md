@@ -8,10 +8,13 @@
 | `background.js` | Detects response URLs, stores per-tab results, starts captures, and initiates direct downloads. |
 | `popup.html`, `popup.css`, `popup.js` | User interface for detected URLs, format selection, and capture controls. |
 | `offscreen.html`, `offscreen.js` | Long-lived capture document, audio encoding, file checks, and local save. |
+| `icons/` | Master artwork and PNG sizes used by the Chrome toolbar and extension listing. |
 | `vendor/lame.min.js` | Browser-ready lamejs MP3 encoder. |
 | `vendor/lamejs-source/`, `vendor/LAMEJS-LICENSE` | Bundled encoder source and license notice. |
 
 No bundler, server, account, or runtime dependency is required. Load this folder as an unpacked Chrome extension.
+
+The icon master is `icons/icon-master.png`. When changing it, regenerate the 16, 32, 48, and 128 pixel PNGs and update `manifest.json` if filenames change. Check the 16-pixel version visually; details that look good at full size can disappear in Chrome's toolbar.
 
 ## Request detection and direct download
 

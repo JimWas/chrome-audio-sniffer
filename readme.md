@@ -1,5 +1,7 @@
 # Chrome Audio Sniffer
 
+![Audio Finder icon](icons/icon-128.png)
+
 A Chrome extension that finds audio requests on the current tab and saves audio you are allowed to keep. It offers direct download for recognizable audio files and tab capture for streams or links that do not produce a playable file.
 
 ## Install
